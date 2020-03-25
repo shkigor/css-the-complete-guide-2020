@@ -1,4 +1,10 @@
 section {
     background: #ff1b68;
-    color: yellow;
+}
+
+h1 {
+    color: white;
+    /* default browser fonts: serif, sans-serif, monospace */
+    /*font-family: serif;*/
+    font-family: 'Anton', sans-serif;
 }
