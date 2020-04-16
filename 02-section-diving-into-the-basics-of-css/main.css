@@ -6,7 +6,7 @@ body {
     background: #ff1b68;
 }
 
-h1 {
+#product-overview h1 {  /* combinator has higher specificity then h1 */
     color: white;
     /* default browser fonts: serif, sans-serif, monospace */
     /*font-family: serif;*/
@@ -15,8 +15,9 @@ h1 {
 
 .section-title {
     color: #2ddf5c;
+    /*font-family: inherit;*/
 }
 
-/*h1 {*/
-/*    font-family: sans-serif;*/
-/*}*/
+h1 {
+    font-family: sans-serif;
+}
